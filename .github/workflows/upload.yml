@@ -2,9 +2,11 @@ name: upload
 
 on:
   push:
-    - main
+    branches:
+      - main
+
 jobs:
-  sync-meta:
+  upload:
     runs-on: ubuntu-latest
     timeout-minutes: 5
 
