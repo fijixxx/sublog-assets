@@ -26,10 +26,3 @@ jobs:
           S3_SYNC_BUCKET: ${{ secrets.S3_SYNC_BUCKET }}
         run: |
           aws s3 sync content/ s3://$S3_SYNC_BUCKET --delete
-
-      - name: Repository Dispatch
-        uses: peter-evans/repository-dispatch@v1
-        with:
-          token: ${{ secrets.REPO_ACCESS_TOKEN }}
-          repository: fijixxx/sublog
-          event-type: build-sublog
