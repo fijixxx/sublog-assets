@@ -2,7 +2,7 @@ category = 'Pickup Articles'
 fileName = '202101030610'
 tag = [
     'GraphQL',
-    'Apllo',
+    'Apollo',
     'graphql-codegen'
 ]
 title = 'この冬お世話になった/また読み返したい技術記事 n 選 2020-2021 （アプリ、API 編）'
