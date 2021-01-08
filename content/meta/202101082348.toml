@@ -1,0 +1,8 @@
+category = 'AWS'
+fileName = '202101082348'
+tag = [
+    'CoudTrail',
+    'S3',
+    'AWS CDK'
+]
+title = 'S3 のイベント通知を CloudTrail に流して、 EventBridge(CloudWatch Events) などで使う'
