@@ -1,7 +1,7 @@
 category = 'AWS'
 fileName = '202101082348'
 tag = [
-    'CoudTrail',
+    'CloudTrail',
     'S3',
     'AWS CDK'
 ]
