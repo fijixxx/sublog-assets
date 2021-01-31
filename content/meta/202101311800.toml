@@ -1,0 +1,8 @@
+category = 'portfolio'
+fileName = '202101311800'
+tag = [
+    'Go',
+    'AWS Lambda',
+    'Docker'
+]
+title = 'ブログの入稿処理を Go で書き直した/Go on Docker on Lamda 試してみた'
