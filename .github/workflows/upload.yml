@@ -25,7 +25,7 @@ jobs:
         env:
           CLOUDINARY_ID: ${{ secrets.CLOUDINARY_ID }}
         run: |
-          mkdir content/.wellknown/cloudinary && touch content/.wellknown/cloudinary/$CLOUDINARY_ID
+          mkdir content/.wellknown && mkdir content/.wellknown/cloudinary && touch content/.wellknown/cloudinary/$CLOUDINARY_ID
 
       - name: S3 Sync
         env:
