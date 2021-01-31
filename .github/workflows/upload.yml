@@ -21,6 +21,12 @@ jobs:
           aws-secret-access-key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
           aws-region: ap-northeast-1
 
+      - name: Make Cloudinary File
+        env:
+          CLOUDINARY_ID: ${{ secrets.CLOUDINARY_ID }}
+        run: |
+          mkdir content/.wellknown/cloudinary && touch content/.wellknown/cloudinary/$CLOUDINARY_ID
+
       - name: S3 Sync
         env:
           S3_SYNC_BUCKET: ${{ secrets.S3_SYNC_BUCKET }}
