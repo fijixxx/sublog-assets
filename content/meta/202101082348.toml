@@ -1,7 +1,5 @@
-
 [meta]
 category = 'AWS'
-fileName = '202101082348'
 tag = [
     'CloudTrail',
     'S3',
